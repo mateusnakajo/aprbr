@@ -11,41 +11,60 @@
     <title>APRBR</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">APRBR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" /></a>
+        <button id="menu-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="quem-somos.html">Quem somos </a>
+            <ul class="navbar-nav ml-auto custom-ul-navbar">
+                <li class="nav-item active custom-li-navbar">
+                    <a class="nav-link blue" href="profissionais.html">Quem somos <span class="sr-only">(página atual)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="area-de-atuacao.html">Área de atuação <span class="sr-only">(página atual)</span> </a>
+                <li class="nav-item custom-li-navbar">
+                    <a class="nav-link blue" href="area-de-atuacao.html">Área de atuação</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contato</a>
+                <li class="nav-item custom-li-navbar">
+                    <a class="nav-link blue" href="contato.html">Contato</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <main role="main" class="container">
-        
+    <main role="main" class="container custom-container">
         <div class="starter-template">
-            <h1>Área de atuação</h1>
+            <h1 class="h1-title">Área de atuação</h1>
+            <p class="justified-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere iaculis nibh, dapibus faucibus enim dictum ac.
+                Nulla facilisi. Quisque ornare diam vitae viverra bibendum. Morbi tincidunt, lacus et imperdiet ullamcorper, 
+                urna risus lobortis orci, sit amet mattis neque metus sit amet ipsum. Aenean elit tellus, commodo ac nibh ut, 
+                ultrices ultricies erat. Nulla eleifend, ligula vitae ultricies rutrum, enim arcu ullamcorper nisi, 
+                eu mollis eros diam cursus quam. Suspendisse varius risus aliquam eros rhoncus semper.
+            </p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Donec accumsan est nec placerat tincidunt.</li>
+                <li>Donec et ante sagittis, rhoncus nunc non, pharetra velit.</li>
+                <li>Pellentesque quis justo eu augue egestas aliquet a nec magna.</li>
+                <li>Cras fermentum est at nibh tristique, sit amet feugiat mi gravida.</li>
+                <li>Quisque eu arcu sit amet orci consequat facilisis sit amet elementum erat.</li>
+                <li>Maecenas ultricies nisl sed mauris cursus egestas.</li>
+                <li>Nunc pretium urna sit amet tortor scelerisque dictum.</li>
+                <li>In pretium risus dictum nibh consequat maximus.</li>
+            </ul>
         </div>
+
         
-    </main><!-- /.container -->
+    </main>
+    <footer class="footer">
+        APRBR Advogados
+    </footer>
     
     <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-        <script src="../../assets/js/vendor/popper.min.js"></script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
     </html>

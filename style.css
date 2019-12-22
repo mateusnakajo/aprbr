@@ -1,6 +1,85 @@
+.starter-template {
+  padding: 3rem 1.5rem;
+}
 
-  .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-  }
+.logo {
+  width: 210px;
+  overflow: hidden;
   
+  margin-left: 30px;
+}
+ 
+#menu-button {
+  border: 0;
+}
+
+.custom-navbar {
+  background-color: #E8E2DE;
+}
+
+.h1-title {
+  color: #1C4451;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.details-div {
+  background-color: #7DABBA;
+  margin-top: 30px;
+}
+
+.details-name {
+  color: #FFF;
+  font-size: 18px;
+}
+
+.details-text {
+  color: #FFF;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.justified-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.details-content {
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #E8E2DE;
+  padding: 10px;
+}
+
+.h2-lawyer {
+  font-size: 18px;
+  color: #1C4451
+}
+
+.h3-lawyer {
+  font-size: 16px;
+  color: #1C4451
+}
+
+.lawyer-text {
+  margin-bottom: 30px;
+}
+
+.custom-ul-navbar {
+  margin-right: 200px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #18839D !important;
+  font-weight: 500;
+}
+
+.custom-li-navbar {
+  margin-right: 20px;
+}
+
+.blue {
+  color: #18839D !important;
+}
