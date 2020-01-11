@@ -64,6 +64,10 @@
   color: #1C4451
 }
 
+.h3-lawyer:hover {
+  color: #1C4451
+}
+
 .lawyer-text {
   margin-bottom: 30px;
 }
@@ -86,4 +90,8 @@
 
 .selected-nav-item {
   color: #1C4451 !important;
+}
+
+.starter-template ul li {
+  list-style-type: disc;
 }
