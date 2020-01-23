@@ -95,3 +95,5 @@
 .starter-template ul li {
   list-style-type: disc;
 }
+
+ol { padding-left: 1.8em; }
